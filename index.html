@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <title>CPSC 1045 Assignment 07</title>
+    <meta charset= "utf-8">
+    <script src = "script.js" defer></script>
+    <style>
+        p{
+            font-weight: bold;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>William Chan 100361035</h1>
+
+    <div>
+        Select your fill percentage:
+        <select id= "fillPercent">
+            <option value= "10">10% shapes</option>
+            <option value= "25">25% shapes</option>
+            <option value= "50">50% shapes</option>
+            <option value= "60">60% shapes</option>
+            <option value= "75">75% shapes</option>
+            <option value= "90">90% shapes</option>
+            <option value= "100">100% shapes</option>
+        </select>
+        <!-- <input type="button" value = "Play" onclick = "startGame()"> -->
+    </div>
+    <p class = "results">In order to win or play the game, press the orange circle(s).</p>
+
+    <canvas id = "myCanvas" width = 1000 height = 500 style = "border-style: solid"></canvas>
+    <p id = "clickCounter">Circles Clicked: 0</p>
+    <p id = "totalCirclesCounter">Total Circles: 0</p>
+    <p id = "theTime">Timer: 10</p>
+</body>
+</html>
